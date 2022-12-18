@@ -1,5 +1,0 @@
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('club', include('club.urls')),
-    path('accounts/', include('gighub/path.contrib.auth.urls')),
-]
