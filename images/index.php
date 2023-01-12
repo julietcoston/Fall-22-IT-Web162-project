@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>My portal</title>
-<meta charset="UFT-8">
+<title>Juliet Coston's IT162 portal Website</title>
+<meta nane="robots" content="noindex,nofollow" />
 <meta name="viewport" content="width=device-width" />
+<mata charset="utf-8">
 <script src="https://use.fontawesome.com/6a71565c22.js"></script>
 <link rel="stylesheet" href="css/nav.css" />
 <link rel="stylesheet" href="css/portal.css" />
 <link rel="stylesheet" href="css/form.css" />
 </head>
-
 <body>
-<main class="wrapper">
-<header>
-<h1><a href="index.php"><i class="logo fa fa-home"></i> (My name is Juliet Coston here are my SCC IT162 Portal</a></h1>
+  <header>
+<h1>Juliet Coston's IT162 Portal</h1>
 <nav>
     <ul class="topnav" id="myTopnav">
-      <li><a href="index.php" class="selected">Welcome</a></li>
+      <a href="index.php" class="selected">Welcome</a>
       <li><a href="big/index.php">Big</a></li>
       <li><a href="aia.php">AIA</a></li>
       <li><a href="flowchart.php">Flowchart/Layout</a></li>
@@ -27,38 +26,60 @@
   </nav>
 </header>
         
-<!-- START LEFT COL -->
-<section>
+<div class="wrapper">
+<-- header ends here-->
+<img class="desktop" src="imges/ desktop.jpg" alt="photo of me in Seattle"/>
 
-<h2 class="pageID">Welcome</h2>
- <img src="images/desktop.jpg" class="desktop" alt="" />
- <img src="images/phone.jpg" class="phone" alt="" />
- <p>This  are my picture hope its okey</p>
- <p>Lorem Ipsum place holder text goes here for now</p>
- <p>Lorem Ipsum place holder text goes here for now</p>
- <p>Lorem Ipsum place holder text goes here for now</p>
-</section>
+<img class="tablet" src="images/ tablet.jpg" alt="photo of me in seattle" />
+
+<img class="phone" src="images/phone .jpg" alt="photo of me in seattle" />
+
+<h2 class="subheader">A little more about me!</h2>
+
+ <p>Hi my name is Juliet Coston.</p>
+ <p> I am a student at Seattle central colleges.<p>
+ <p>My goal is in education is IT computer programmer/digital software.</p>
+ <p>I'm working on my associate degree as current</p>
 
 
 <aside>
- <h3>Right Column</h3>
- <img src="images/tablet.jpg" class="tablet" alt="" />
+<h2 class="pageID">Welcome</h2>
+ <img src="images/desktop.jpg" class="desktop" alt="me in Seattle " />
+ <p>Lorem Ipsum place holder text goes here for now</p>
+ <p>Lorem Ipsum place holder text goes here for now</p>
+</aside>
+ 
+<aside>
+ <img src="images/phone.jpg" class="phone" alt="in Seattle " />
  <p>Lorem Ipsum place holder text goes here for now</p>
  <p>Lorem Ipsum place holder text goes here for now</p>
 </aside>
 
- 
- 
-  <footer>
-      <p><small>&copy; 2020-<?=date("Y")?> by 
-          <a href="contact.php">Sara Newman</a>, All Rights Reserved ~ 
+<aside>
+ <h3>Right Column</h3>
+ <img src="images/tablet.jpg" class="tablet" alt=" />
+ <p>Lor <p>Lorem Ipsum place holder text goes here for now</p>
+ <p>Lorem Ipsum place holder text goes here for now</p>
+</aside>em Ipsum place holder text goes here for now</p>
+ <p>Lorem Ipsum place holder text goes here for now</p>
+</aside>
+
+</div>>
+<!--footer ends here-->
+<footer>
+<p><small>&copy; 2019 by <a href="contact.php">Juliet Coston</a>,All Rights
+ Reserved ~ <a href="http://validator.w3.org/chech/refere" targer="_blank">Validator/chech?uri=referer" target="_blank">valid css</a>
+</small></p>
+<?php include 'include/footer.php';?>
+
+          <a href="contact.php">Juliet Coston</a>, All Rights Reserved ~ 
           <a id="html-checker" href="#">Check HTML</a> ~ 
           <a id="css-checker" href="#">Check CSS</a></small>
      </p>
     </footer>
 <!-- END Footer --> 
-</main>
 
+<!-- Toggle between adding and removing the "responsive" class to a topnav when the user clicks on the icon-->
 
 <script>
 	//https://tinyurl.com/dynamic-html-checker
@@ -84,9 +105,8 @@
 
       
 
-    
-</body>
-</html>
+ 
+
 
   
 
